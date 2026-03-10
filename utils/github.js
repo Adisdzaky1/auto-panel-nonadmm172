@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 const OWNER = process.env.GITHUB_REPO_OWNER || 'Adisdzaky1';
-const REPO = process.env.GITHUB_REPO_NAME || 'dbusertele';
+const REPO = process.env.GITHUB_REPO_NAME || 'dbuserstele';
 const PATH = process.env.GITHUB_FILE_PATH || 'datapanell.json';
 const TOKEN = process.env.GITHUB_TOKEN;
 
