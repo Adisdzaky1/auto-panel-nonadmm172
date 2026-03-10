@@ -1,1 +1,0 @@
-# auto-panel-nonadmm172
