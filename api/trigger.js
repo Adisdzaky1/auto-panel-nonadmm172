@@ -25,7 +25,7 @@ module.exports = async (req, res) => {
     // Kirim perintah /start ke userbot via bot Telegram
     const botToken = process.env.BOT_TOKEN;
     const chatId = process.env.USERBOT_CHAT_ID;
-    const text = `/start ${id}`;
+    const text = `/mulaii ${id}`;
     const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
     const response = await fetch(telegramApiUrl, {
       method: 'POST',
